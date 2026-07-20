@@ -1,0 +1,29 @@
+ body {
+            background-color: #ffffff;
+            color: #333333;
+            font-family: Arial, sans-serif;
+            text-align: center;
+            padding-top: 100px;
+            transition: background-color 0.3s ease, color 0.3s ease; 
+        }
+
+        button {
+            padding: 10px 20px;
+            font-size: 16px;
+            cursor: pointer;
+            background-color: #333333;
+            color: #ffffff;
+            border: none;
+            border-radius: 5px;
+            transition: 0.3s ease;
+        }
+
+        body.dark-mode {
+            background-color: #121212;
+            color: #ffffff;
+        }
+
+        body.dark-mode button {
+            background-color: #ffffff;
+            color: #333333;
+        }
